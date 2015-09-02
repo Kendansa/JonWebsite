@@ -2,6 +2,15 @@ body {
 	font-family:sans-serif;
 }
 
+#googlemaps { 
+  height: 100%; 
+  width: 100%; 
+  position:absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+
 #about {
 	display:block;
 	background-color:lightblue;
@@ -26,16 +35,21 @@ body {
 	background-color:linen;
 }
 
-.footer {
+footer {
 	display:inline-block;
 	font-size:.7em;
 	color:gray;
 	clear:both;
-    position: relative;
-    top: 53em;
-    left:-42em;
+    position: absolute;
+    top: 99%;
+    left:23%;
     background-color:lightgreen;
 
+}
+
+.pinpoint {
+	max-width:32px;
+	max-height:32px;
 }
 
 #title {
