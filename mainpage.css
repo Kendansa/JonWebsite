@@ -2,13 +2,11 @@ body {
 	font-family:sans-serif;
 }
 
-#googlemaps { 
-  height: 100%; 
-  width: 100%; 
-  position:absolute; 
-  top: 0; 
-  left: 0; 
-  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+#googlemaps{
+	max-width:100%;
+	max-height:100%;
+	background-color:mistyrose;
+	padding-right:-200px;
 }
 
 #about {
@@ -18,7 +16,7 @@ body {
 	padding-left:2em;
 	padding-right:1em;
 	padding-top:13em;
-	padding-bottom: 20em;
+	padding-bottom: 100%;
 	position:fixed;
 	margin-top:0;
 }
@@ -40,7 +38,7 @@ footer {
 	font-size:.7em;
 	color:gray;
 	clear:both;
-    position: absolute;
+	float:bottom;
     top: 99%;
     left:23%;
     background-color:lightgreen;
