@@ -2,12 +2,6 @@ body {
 	font-family:sans-serif;
 }
 
-#googlemaps{
-	max-width:100%;
-	max-height:100%;
-	background-color:mistyrose;
-	padding-right:-200px;
-}
 
 #about {
 	display:block;
@@ -18,7 +12,7 @@ body {
 	padding-top:13em;
 	padding-bottom: 100%;
 	position:fixed;
-	margin-top:0;
+	margin-top: 0;
 }
 
 #profileimg {
@@ -31,7 +25,19 @@ body {
 .main {
 	display:inline-block;
 	background-color:linen;
+	margin-top: 1%;
+	float:right;
+	padding:0;
 }
+
+.toprow {
+ margin-right: 8%;
+}
+
+.bottomrow{
+margin-right: 15%;
+}
+
 
 footer {
 	display:inline-block;
@@ -45,18 +51,22 @@ footer {
 
 }
 
-.pinpoint {
-	max-width:32px;
-	max-height:32px;
+.icon {
+	height:80%;
+	width: 80%;
+	max-width:250px;
+	max-height:250px;
+	padding:0;
+
 }
 
 #title {
 	text-align: center;
 	display:inline-block;
 	background-color:lavender;
-	position:relative;
-	top:7em;
-	left:50%;
+	margin-left:45%;
+	padding-left:auto;
+	margin-top: 1%;
 }
 
 a {
@@ -67,14 +77,13 @@ a {
 ul {
 	margin:0;
 	padding:0;
-	display:inline-block;
 }
 
 ul li {
 	list-style-type:none;
 	display:inline;
 	padding:1%;
-	text-align:justify;
+	text-align:center;
 }
 
 
@@ -87,10 +96,10 @@ ul li {
 	max-width:1024px;
 	margin:auto;
 	display:inline-block;
-	position:fixed;
-	left:288px;
-	margin-left:5%;
+	margin-left:25%;
 	padding-left:0;
+	padding-bottom: .5%;
+	max-height: 50px;
 }
 
 .clearfix:after {
@@ -100,4 +109,5 @@ ul li {
 	content: " ";
 	clear: both;
 	height: 0;
+	max-height:1%;
 	}
